@@ -1,0 +1,35 @@
+{
+  "name": "@kamdz/betting-indicators",
+  "version": "1.0.0",
+  "description": "Betting Indicators e.g. ROI, Yield, Profitability, Hit Rate",
+  "license": "MIT",
+  "repository": "kamdz/betting-indicators",
+  "author": {
+    "name": "Kamil Dzwonkowski",
+    "email": "github@kamdz.dev",
+    "url": "https://kamdz.pl"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "betting",
+    "indicators",
+    "roi",
+    "yield",
+    "odds"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^2.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
